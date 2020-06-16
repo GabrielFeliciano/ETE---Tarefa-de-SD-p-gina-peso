@@ -22,7 +22,14 @@
 }
 #form-weight #ask-weight label {
   font-size: 5em;
-  margin-bottom: 1rem;
+  padding: 1rem 0rem;
+}
+#form-weight #ask-weight p:first-of-type {
+  padding-top: 0;
+}
+#form-weight #ask-weight p {
+  font-size: 1.5em;
+  padding: .8em;
 }
 #form-weight #ask-weight input {
   width: 50%;
