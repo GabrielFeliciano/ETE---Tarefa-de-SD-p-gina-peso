@@ -1,0 +1,64 @@
+#form-weight {
+    background-color: darkgrey;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+
+    #ask-weight {
+        position: relative;
+        height: 70%;
+        width: 100%;
+    
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        
+    
+        label {
+            font-size: 5em;
+            margin-bottom: 1rem;
+        }
+    
+        input {
+            width: 50%;
+            height: 20%;
+            font-size: calc(50vh * .12);
+            text-align: center;
+    
+            box-shadow: darkorange .25rem .25rem;
+    
+            transition: 1s ease-in all;
+        }
+    
+        input:hover, input:focus {
+            transform: scale(1.1);
+        }
+    }
+
+    & > #bt-save {
+        padding: 1rem 3rem;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 3em;
+        color: seashell;
+        background-color: brown;
+
+        transition: 1s all;
+        border: crimson solid .2rem;
+        border-radius: 1rem;
+    }
+
+    & > #bt-save:hover {
+        background-color: seagreen;
+        border-color: chartreuse;
+        color: darkslategrey;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
