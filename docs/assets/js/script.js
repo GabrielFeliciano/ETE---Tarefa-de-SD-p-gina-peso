@@ -16,20 +16,7 @@ function saveWeightHistory () {
         .height = '50vh';
         
     document.querySelector("body > div.table-weight-container")
-        .style
-        .height = '100%';
-
-    document.querySelector("body > div.table-weight-container")
-        .style
-        .margin = '3rem 0';
-
-    document.querySelector("body > div.table-weight-container")
-        .style
-        .borderWidthTop = '.1rem';
-        
-    document.querySelector("body > div.table-weight-container")
-        .style
-        .borderWidthBottom = '.1rem';
+        .classList.add('table-weight-container-visible');
 
     const tableWeightBody = document.querySelector('#table-weight > tbody');
 

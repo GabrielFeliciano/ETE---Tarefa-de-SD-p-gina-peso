@@ -33,6 +33,11 @@
   max-height: 50vh;
   overflow-y: scroll;
   overflow-x: hidden;
-  border-top: black dashed 0;
-  border-bottom: black dashed 0;
+}
+
+.table-weight-container-visible {
+  margin: 3rem 0;
+  height: 100%;
+  border-top: black dashed .1rem;
+  border-bottom: black dashed .1rem;
 }
