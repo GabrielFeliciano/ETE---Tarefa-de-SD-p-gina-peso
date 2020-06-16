@@ -1,11 +1,13 @@
 #form-weight {
+  transition: 2s height;
+  box-sizing: border-box;
   background-color: darkgrey;
   padding-bottom: 2rem;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
 }
 #form-weight #ask-weight {
@@ -54,7 +56,7 @@
 .table-weight {
   font-size: 1.5em;
   padding-bottom: 2rem;
-  width: 50%;
+  width: 50vw;
   height: 100%;
   box-sizing: border-box;
   border: .2rem solid crimson;
@@ -76,15 +78,18 @@
 }
 
 .table-weight-container {
+  transition: 2s all;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin: 3rem 0;
-  width: 100%;
-  height: 100%;
+  margin: 0 0;
+  width: 80%;
+  height: 0px;
   max-height: 50vh;
   overflow-y: scroll;
   overflow-x: hidden;
+  border-top: black dashed 0;
+  border-bottom: black dashed 0;
 }
 
 body {
