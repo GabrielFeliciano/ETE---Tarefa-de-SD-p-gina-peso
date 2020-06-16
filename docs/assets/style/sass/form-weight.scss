@@ -42,6 +42,8 @@
     
         input:hover, input:focus {
             transform: scale(1.1);
+            box-shadow: none;
+            box-shadow: darkorange 0 0 0 .2rem;
         }
     }
 
@@ -56,6 +58,7 @@
         transition: 1s all;
         border: crimson solid .2rem;
         border-radius: 1rem;
+        box-shadow: rgba(47, 79, 79, .5) .2rem .2rem .1rem;
     }
 
     & > #bt-save:hover {

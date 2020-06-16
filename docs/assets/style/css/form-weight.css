@@ -34,6 +34,8 @@
 }
 #form-weight #ask-weight input:hover, #form-weight #ask-weight input:focus {
   transform: scale(1.1);
+  box-shadow: none;
+  box-shadow: darkorange 0 0 0 .2rem;
 }
 #form-weight > #bt-save {
   padding: 1rem 3rem;
@@ -45,6 +47,7 @@
   transition: 1s all;
   border: crimson solid .2rem;
   border-radius: 1rem;
+  box-shadow: rgba(47, 79, 79, 0.5) 0.2rem 0.2rem 0.1rem;
 }
 #form-weight > #bt-save:hover {
   background-color: seagreen;

@@ -6,6 +6,8 @@
   box-sizing: border-box;
   border: .2rem solid crimson;
   text-align: center;
+  box-shadow: rgba(47, 79, 79, 0.5) 0.2rem 0.2rem 0.1rem;
+  margin: .4rem 0;
 }
 .table-weight th {
   background-color: coral;
