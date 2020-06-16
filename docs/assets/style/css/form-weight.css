@@ -9,6 +9,7 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
+  border-bottom: darkslategrey 1rem solid;
 }
 #form-weight #ask-weight {
   position: relative;
