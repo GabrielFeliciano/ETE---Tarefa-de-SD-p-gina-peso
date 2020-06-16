@@ -1,7 +1,14 @@
+@keyframes mostrar-icone {
+    to {
+      opacity: 100%;
+    }
+}
+
 #etefmc-icon {
     position: absolute;
-    width: 20vh;
+    width: 25vh;
 
-    top: 5vh;
-    transform: translate(-40vw);
+    transform: translate(calc(-40vw + 1rem), 5vh);
+    opacity: 0%;
+    animation: mostrar-icone 5s ease-in 1 normal forwards;
 }

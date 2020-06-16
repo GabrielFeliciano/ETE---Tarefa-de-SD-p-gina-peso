@@ -5,7 +5,7 @@
         fill: none;
         stroke: lime;
         stroke-miterlimit: 10;
-        stroke-width: 44px;
+        stroke-width: 50px;
       }
     </style>
     <style>
@@ -14,6 +14,7 @@
         stroke-dashoffset: 0;
         animation: animacao-path 1s linear infinite;
         box-shadow: #00000055 .25rem .25rem;
+        
       }
 
       @keyframes animacao-path {
