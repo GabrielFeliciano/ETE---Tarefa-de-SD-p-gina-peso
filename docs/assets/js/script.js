@@ -14,9 +14,11 @@ function saveWeightHistory () {
     document.querySelector("#form-weight")
         .style
         .height = '50vh';
-        
     document.querySelector("body > div.table-weight-container")
         .classList.add('table-weight-container-visible');
+    document.querySelectorAll('#ask-weight p, #ask-weight h2').forEach((elem => {
+        elem.style.display = 'none' 
+    }));
 
     const tableWeightBody = document.querySelector('#table-weight > tbody');
 
