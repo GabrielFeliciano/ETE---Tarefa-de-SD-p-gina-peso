@@ -3,6 +3,7 @@ buttonWeightFormSubmit.onclick = saveWeightHistory;
 
 function saveWeightHistory () {
     const weight = document.querySelector("#ask-weight > input[type='text']").value;
+    document.querySelector("#ask-weight > input[type='text']").value = "";
 
     const WeightValid = (/^(\d*\.?\d+)(.*)$/g).exec(weight);
     console.log(WeightValid)
