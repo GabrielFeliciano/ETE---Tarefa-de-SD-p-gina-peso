@@ -1,0 +1,31 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 915">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: lime;
+        stroke-miterlimit: 10;
+        stroke-width: 44px;
+      }
+    </style>
+    <style>
+      path {
+        stroke-dasharray: 200px;
+        stroke-dashoffset: 0;
+        animation: animacao-path 1s linear infinite;
+        box-shadow: #00000055 .25rem .25rem;
+      }
+
+      @keyframes animacao-path {
+        to {
+          stroke-dashoffset: 400px;
+        }
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M941,524.5C941,285.59,744.41,89,505.5,89S70,285.59,70,524.5,266.59,960,505.5,960A436,436,0,0,0,878.83,748.74" transform="translate(-48 -67)"/>
+  <path class="cls-1" d="M779.84,524.42c0,128.79-34.44,233-77,233l-.27,0c-42.56,0-77-104.21-77-233l-.3-.42c0-128.79-34.44-233-77-233l-.27,0c-42.56,0-77,104.21-77,233" transform="translate(-48 -67)"/>
+  <path class="cls-1" d="M820.53,318.69C796.39,358,780,435.15,780,524" transform="translate(-48 -67)"/>
+  <path class="cls-1" d="M845.27,291" transform="translate(-48 -67)"/>
+  <path class="cls-1" d="M472.84,524.42c0,128.79-34.44,233-77,233l-.27,0c-42.56,0-77-104.21-77-233l-.3-.42c0-128.79-34.44-233-77-233l-.27,0c-42.56,0-77,104.21-77,233H963" transform="translate(-48 -67)"/>
+</svg>
